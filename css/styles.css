@@ -1,3 +1,6 @@
+body{
+  background-image: url("../img/icecream2.jpg");
+}
 
 h1{
   font-size: 4rem;
@@ -39,11 +42,6 @@ section{
   align-items: center;
 }
 
-
-body{
-  background-image: url("../img/icecream2.jpg");
-}
-
 header,main , img{
   background-color: white;
   padding: 15px;
@@ -51,5 +49,9 @@ header,main , img{
   border-color:deepskyblue;
   border-style:dotted;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 50px;
+}
+
+#selectedFlavor{
+  padding: 100px;
 }
