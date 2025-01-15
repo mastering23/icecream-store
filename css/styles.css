@@ -1,7 +1,16 @@
+body{
+  background-image: url("../img/icecream2.jpg");
+}
+
 h1{
   font-size: 4rem;
   font-weight: lighter;
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav{
@@ -9,13 +18,6 @@ nav{
  gap: 10px;
 
 }
-
-header{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 a{
   text-decoration: none;
@@ -25,6 +27,7 @@ a{
   background-color:khaki;
   border-radius: 20px;
   padding: 10px;
+  margin: 10px;
 
 }
 
@@ -33,10 +36,22 @@ a:hover{
   background-color:lightslategrey;
 }
 
-
-#img-index-freezer{
+section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:20px;
+}
+
+header,main , img{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10%;
+  border-color:deepskyblue;
+  border-style:dotted;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+#selectedFlavor{
+  padding: 100px;
 }
