@@ -1,7 +1,13 @@
+
 h1{
   font-size: 4rem;
   font-weight: lighter;
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav{
@@ -9,13 +15,6 @@ nav{
  gap: 10px;
 
 }
-
-header{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 a{
   text-decoration: none;
@@ -25,6 +24,7 @@ a{
   background-color:khaki;
   border-radius: 20px;
   padding: 10px;
+  margin: 10px;
 
 }
 
@@ -33,10 +33,22 @@ a:hover{
   background-color:lightslategrey;
 }
 
-
-#img-index-freezer{
+section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:20px;
+}
+
+
+body{
+  background-image: url("../img/icecream2.jpg");
+}
+header,main{
+  background-color: white;
+  padding: 30px;
+  border-radius: 30%;
+  border-color:deepskyblue;
+  border-style:double;
+  margin-left: 100px;
+  margin-right: 100px;
 }
